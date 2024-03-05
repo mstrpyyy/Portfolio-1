@@ -10,14 +10,13 @@ export const HomePage = () => {
         <>
             <Navbar1 />
             <HomeHeader />
-            <div className="flex flex-col justify-evenly h-[90vh] bg-gradient-to-b from-xblack from-70% to-blue1">
+            <div className="flex flex-col justify-evenly h-[90vh]">
                 <div className=" bg-xblack flex mx-36 gap-10">
                     <AboutMe />
                     <Timeline1 />
                 </div>
                 <Marquee1 />
             </div>
-            <a href='#' className="bg-blue1 block ">Recent Project</a>
         </>
     )
 }
